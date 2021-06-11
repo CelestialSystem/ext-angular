@@ -4,7 +4,7 @@ const ExtWebpackPlugin = require('@sencha/ext-webpack-plugin');
 //console.log(process)
 var build_v
 if (process.env.build_v == undefined) {
-  build_v = '7.3.0.0'
+  build_v = '7.4.0.0'
 }
 else {
   build_v = process.env.build_v
